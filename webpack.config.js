@@ -16,7 +16,6 @@ const webpackConfig = {
       loader: 'babel',
       query: {
         presets: ['es2015', 'stage-2'],
-        babelrc: false,
       },
     }],
   },

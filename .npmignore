@@ -3,6 +3,7 @@
 .eslintrc
 .gitignore
 .npmignore
+.babelrc
 index.js
 logger
 webpack.config.js
