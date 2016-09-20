@@ -9,6 +9,11 @@ const consoleLog = (message, error, callback) => {
 
 // TODO: Well, real logging, no?
 export default {
+  log(message, error, callback) {
+    if (process.env.NODE_ENV !== 'production') {
+      consoleLog(message, error, callback);
+    }
+  },
   error(message, error, callback) {
     if (process.env.NODE_ENV !== 'production') {
       consoleLog(message, error, callback);
