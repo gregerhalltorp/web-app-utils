@@ -1,2 +1,7 @@
-src
 examples
+logger
+.editorconfig
+.eslintrc
+.gitignore
+.npmignore
+webpack.config.js

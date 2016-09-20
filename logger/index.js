@@ -1,4 +1,4 @@
-/* eslint-disable no-console*/
+/* eslint-disable no-console */
 export default {
   error(message, error, callback) {
     if (process.env.NODE_ENV !== 'production') {
