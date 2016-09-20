@@ -2,9 +2,9 @@ import onFinished from 'on-finished';
 import logger from '../logger';
 
 export default function (req, res, next) {
-  req.startTime = Date.create(); // eslint-disable-line no-param-reassign
+  req.startTime = new Date(); // eslint-disable-line no-param-reassign
   onFinished(res, (error, finishedResp) => {
-    req.endTime = Date.create(); // eslint-disable-line no-param-reassign
+    req.endTime = new Date(); // eslint-disable-line no-param-reassign
     if (error) {
       logger.error({
         clientip: req.headers['x-forwarded-for'] || req.ip,

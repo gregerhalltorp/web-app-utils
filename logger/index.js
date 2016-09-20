@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 const consoleLog = (message, error, callback) => {
-  console.log(message, error || '');
+  console.log(message || '', error || '');
   if (callback) {
     callback();
   }
