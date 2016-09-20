@@ -17,3 +17,4 @@ babel-temp/
 .tern-project
 *.swp
 dist/
+lib/
