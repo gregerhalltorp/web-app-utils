@@ -1,6 +1,6 @@
 {
   "name": "@gregerhalltorp/web-app-utils",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Utilities for web-apps",
   "main": "./dist/index.js",
   "scripts": {
