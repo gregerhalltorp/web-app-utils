@@ -26,6 +26,7 @@
     ]
   },
   "dependencies": {
+    "on-finished": "^2.3.0",
     "webpack": "^1.13.2",
     "webpack-node-externals": "^1.4.3"
   },
