@@ -1,8 +1,8 @@
-examples
-logger
+.babelrc
 .editorconfig
 .eslintrc
 .gitignore
 .npmignore
+logger
 webpack.config.js
 index.js
